@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bintang Tiga Jaya | Detail Produk</title>
 
-    <!-- Judul -->
-    <title>Bintang Tiga Jaya | Home</title>
-
     <!-- Favicon -->
     <link rel="shortcut icon" href="Asset/logobtj.png" type="image/x-icon">
 
@@ -74,12 +71,6 @@
                         <a class="nav-link" href="#" onclick="showAlertMasuk()">Masuk</a>
                     </li>
                 </ul>
-                <!-- Form pencarian di kanan -->
-                <form class="d-flex" role="search">
-                    <input class="form-control form-search me-2" type="search" placeholder="Cari Produk"
-                        aria-label="Search">
-                    <button class="btn btn-search" type="submit" onclick="showAlertSearch()">Cari</button>
-                </form>
             </div>
         </div>
     </nav>
@@ -321,11 +312,6 @@
             document.getElementById("product-price").textContent = product.price;
         } else {
             document.querySelector(".container").innerHTML = "<p>Produk tidak ditemukan.</p>";
-        }
-
-        // Fungsi untuk alert
-        function showAlertPesanSekarang() {
-            alert(`Anda memilih untuk memesan: ${product.name}`);
         }
     </script>
 

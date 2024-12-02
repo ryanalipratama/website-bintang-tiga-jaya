@@ -62,13 +62,6 @@ document.addEventListener("DOMContentLoaded", function() {
             },
         },
     });
-
-  
-
-    
-
-    
-
     
 });
 
